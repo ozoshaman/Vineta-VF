@@ -7,6 +7,9 @@ const likesCommentsRoutes = require('./routes/likesComments');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+console.log("DATABASE_URL:", process.env.DATABASE_URL);
+console.log("Port:", process.env.PORT);
+
 
 // Middlewares
 app.use(cors());
