@@ -1,0 +1,39 @@
+.create-post-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-post-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-post-container input[type="text"],
+.create-post-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.create-post-container input[type="file"] {
+  margin-top: 10px;
+}
+
+.preview-image {
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.create_button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
