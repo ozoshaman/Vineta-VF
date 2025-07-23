@@ -1,0 +1,16 @@
+# Node modules
+**/node_modules/
+
+# Environment files
+**/.env
+
+# Certificados SSL
+**/*.pem
+
+# Logs
+*.log
+
+# Vercel o Render
+.vercel/
+dist/
+build/
