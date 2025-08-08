@@ -7,10 +7,6 @@ const likesCommentsRoutes = require('./routes/likesComments');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-console.log("DATABASE_URL:", process.env.DATABASE_URL);
-console.log("Port:", process.env.PORT);
-console.log("jwt:", process.env.JWT_SECRET);
-console.log("email",process.env.EMAIL_USER,process.env.EMAIL_PASS)
 
 
 // Middlewares
